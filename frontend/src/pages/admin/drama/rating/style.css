@@ -1,0 +1,47 @@
+/* Mengubah warna range slider menjadi hijau dengan track yang lebih tipis */
+input[type="range"].range-green::-webkit-slider-runnable-track {
+    background: #28a745; /* Warna hijau */
+    height: 4px; 
+  }
+  
+  input[type="range"].range-green::-moz-range-track {
+    background: #28a745; 
+    height: 10px; 
+  }
+  
+  input[type="range"].range-green::-ms-track {
+    background: #28a745; 
+    height: 2px; 
+    border-color: transparent;
+    color: transparent;
+  }
+  
+ /* Mengubah warna button geser menjadi hijau dan posisikan di tengah */
+input[type="range"].range-green::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px; 
+    height: 16px; 
+    background: #5c8766; 
+    border-radius: 50%; 
+    cursor: pointer;
+    position: relative; 
+    top: -6px; 
+  }
+  
+  input[type="range"].range-green::-moz-range-thumb {
+    width: 16px;
+    height: 16px; 
+    background: #28a745; 
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  input[type="range"].range-green::-ms-thumb {
+    width: 16px;
+    height: 16px; 
+    background: #28a745;
+    border-radius: 50%; 
+    cursor: pointer;
+  }
+  

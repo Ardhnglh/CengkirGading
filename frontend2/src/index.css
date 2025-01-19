@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Aturan kustom untuk placeholder */
+input::placeholder {
+    @apply font-dramatic-subtitle;
+}
